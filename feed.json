@@ -1,0 +1,13 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Datomatic Blog",
+    "description": "",
+    "home_page_url": "https://datomatic.github.io/blog.datomatic.io",
+    "feed_url": "https://datomatic.github.io/blog.datomatic.io/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Alberto Peripolli"
+    },
+    "items": [
+    ]
+}

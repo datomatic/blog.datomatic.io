@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://datomatic.github.io/blog.datomatic.io/sitemap.xml
