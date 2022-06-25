@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Datomatic Blog</title>
-    <link href="https://datomatic.github.io/blog.datomatic.io/feed.xml" rel="self" />
-    <link href="https://datomatic.github.io/blog.datomatic.io" />
+    <link href="https://blog.datomatic.io/feed.xml" rel="self" />
+    <link href="https://blog.datomatic.io" />
     <updated>1970-01-01T01:00:00+01:00</updated>
     <author>
         <name>Alberto Peripolli</name>
     </author>
-    <id>https://datomatic.github.io/blog.datomatic.io</id>
+    <id>https://blog.datomatic.io</id>
 
 </feed>
