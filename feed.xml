@@ -3,10 +3,44 @@
     <title>Datomatic Blog</title>
     <link href="https://blog.datomatic.io/feed.xml" rel="self" />
     <link href="https://blog.datomatic.io" />
-    <updated>1970-01-01T01:00:00+01:00</updated>
+    <updated>2022-06-25T10:40:31+02:00</updated>
     <author>
         <name>Alberto Peripolli</name>
     </author>
     <id>https://blog.datomatic.io</id>
 
+    <entry>
+        <title>Test post</title>
+        <author>
+            <name>Alberto Peripolli</name>
+        </author>
+        <link href="https://blog.datomatic.io/test-post.html"/>
+        <id>https://blog.datomatic.io/test-post.html</id>
+
+        <updated>2022-06-25T10:40:31+02:00</updated>
+            <summary>
+                <![CDATA[
+                    grusp Test page aksjd ksjkdas asdjasd jasdjk asd jad jkdjs;aadassd jsdjas j Str::of($translation)-&gt;startsWith(self::translateUniquePath($method)) Bob ciao
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+    <figure class="post__image post__image--center">
+      <img decoding="async" loading="lazy" src="https://blog.datomatic.io/media/posts/1/grusp-corsivo.png" sizes="100vw" srcset="https://blog.datomatic.io/media/posts/1/responsive/grusp-corsivo-xs.png 300w ,https://blog.datomatic.io/media/posts/1/responsive/grusp-corsivo-sm.png 480w ,https://blog.datomatic.io/media/posts/1/responsive/grusp-corsivo-md.png 768w ,https://blog.datomatic.io/media/posts/1/responsive/grusp-corsivo-lg.png 1024w ,https://blog.datomatic.io/media/posts/1/responsive/grusp-corsivo-xl.png 1360w ,https://blog.datomatic.io/media/posts/1/responsive/grusp-corsivo-2xl.png 1600w"  height="640" width="640" alt="grusp" />
+      <figcaption>grusp</figcaption>
+    </figure>
+
+  <p>
+    Test page aksjd ksjkdas asdjasd jasdjk asd jad jkdjs;aadassd jsdjas j
+  </p>
+<pre class="line-numbers  language-php"><code>Str::of($translation)-&gt;startsWith(self::translateUniquePath($method))</code></pre>
+<hr class="separator separator--dots" />
+
+  <p>
+    Bob ciao
+  </p>
+            ]]>
+        </content>
+    </entry>
 </feed>
