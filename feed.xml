@@ -3,7 +3,7 @@
     <title>Datomatic Blog</title>
     <link href="https://blog.datomatic.io/feed.xml" rel="self" />
     <link href="https://blog.datomatic.io" />
-    <updated>2022-06-25T10:46:40+02:00</updated>
+    <updated>2022-06-25T20:58:15+02:00</updated>
     <author>
         <name>Alberto Peripolli</name>
     </author>
@@ -17,11 +17,11 @@
         <link href="https://blog.datomatic.io/test-post.html"/>
         <id>https://blog.datomatic.io/test-post.html</id>
 
-        <updated>2022-06-25T10:46:40+02:00</updated>
+        <updated>2022-06-25T20:58:15+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.datomatic.io/media/posts/1/JhhwhOmz_400x400.jpeg" alt="" />
-                    grusp Test page aksjd ksjkdas asdjasd jasdjk asd jad jkdjs;aadassd jsdjas j Str::of($translation)-&gt;startsWith(self::translateUniquePath($method)); public function __call(string $method, array $parameters): string { $translation = __(self::translateUniquePath($method, $this-&gt;name) , [], $parameters[0] ?? null); if (Str::of($translation)-&gt;startsWith(self::translateUniquePath($method, $this-&gt;name))) { $translation = __(self::translateUniqueFallbackPath($this-&gt;name), [], $parameters[0] ?? null); if (Str::of($translation)-&gt;startsWith(self::translateUniqueFallbackPath($this-&gt;name))) { throw&hellip;
+                    grusp \Test page aksjd ksjkdas asdjasd jasdjk asd jad jkdjs;aadassd jsdja asddasasdasd asdsadsdsdasdsdsdaasdas asddasjoiasdn asdjasd jasdjkasd kasdjasd. jkasjasd; jas j;as j;as; jka kas jkaj; asd jk;as jkasd; jkasd jasdj; asd jads; jas j;ads; ja; jasd jasd; asd jasd jasds j Str::of($translation)-&gt;startsWith(self::translateUniquePath($method)); public function __call(string $method,&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -34,7 +34,11 @@
     </figure>
 
   <p>
-    Test page aksjd ksjkdas asdjasd jasdjk asd jad jkdjs;aadassd jsdjas j
+    \Test page aksjd ksjkdas asdjasd jasdjk asd jad jkdjs;aadassd jsdja
+  </p>
+
+  <p>
+    asddasasdasd<br>asdsadsdsdasdsdsdaasdas<br>asddasjoiasdn asdjasd jasdjkasd kasdjasd. jkasjasd; jas j;as j;as; jka kas jkaj; asd jk;as jkasd; jkasd jasdj; asd jads; jas j;ads; ja; jasd jasd; asd jasd jasds j
   </p>
 <pre class="line-numbers  language-php"><code>Str::of($translation)-&gt;startsWith(self::translateUniquePath($method));
 
@@ -53,10 +57,21 @@ public function __call(string $method, array $parameters): string
         return $translation;
     }
 </code></pre>
+<pre class="line-numbers  language-typescript"><code>const test = ({ name }: {name: string}) =&gt; {
+  console.log(`this is typescript, ${name}.`);
+}</code></pre>
 <hr class="separator separator--dots" />
 
   <p>
     Bob ciao
+  </p>
+
+  <p class="abstract">
+    Questo è un abstract customizzato. Ciao Alberto
+  </p>
+
+  <p class="abstract-show">
+    Questo è un secondo abstract ma visualizzato nel post
   </p>
             ]]>
         </content>
