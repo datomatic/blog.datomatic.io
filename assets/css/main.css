@@ -1551,10 +1551,9 @@ textarea {
   margin-bottom: 1rem;
   width: 100%;
   border-radius: 0.5rem;
-  transition-duration: .5s;
   transition-timing-function: cubic-bezier(.4,0,.2,1);
   transition-property: box-shadow;
-  transition-duration: .15s;
+  transition-duration: .5s;
   box-shadow: var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow);
   --tw-shadow: 0 0 transparent;
 }
@@ -2555,19 +2554,19 @@ pre code.hljs {
 }
 
 .news{
-  background-color: #005F9F;
+  background-color: #3F728E;
 }
 
 .tutorials{
-  background-color: #81B29A;
+  background-color: #429E6D;
 }
 
 .packages{
-  background-color: #BB86FC;
+  background-color: #DFA45D;
 }
 
 .tips{
-  background-color: #555555;
+  background-color: #BB86FC;
 }
 
 .laravel{
