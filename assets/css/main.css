@@ -765,16 +765,27 @@ textarea {
   }
 }
 
-.logo {
+.logo,.logo-dark {
+  width: 250px;
   color: var(--logo-color) !important;
   font-size: 1.2136296308rem;
   font-family: var(--logo-font);
   font-weight: var(--font-weight-normal);
   margin-right: auto;
 }
-.logo > img {
-  max-height: calc(var(--navbar-height) - 1.5rem);
+.logo > img, .logo-dark > img {
   width: auto;
+}
+.logo-dark {
+  display: none;
+}
+@media (prefers-color-scheme: dark) {
+  .logo-dark {
+    display: block !important;
+  }
+  .logo {
+     display: none !important;
+  }
 }
 
 .search {
