@@ -3,12 +3,73 @@
     <title>Datomatic Blog</title>
     <link href="https://blog.datomatic.io/feed.xml" rel="self" />
     <link href="https://blog.datomatic.io" />
-    <updated>2022-06-27T12:40:00+02:00</updated>
+    <updated>2022-06-27T16:26:29+02:00</updated>
     <author>
         <name>Alberto Peripolli</name>
     </author>
     <id>https://blog.datomatic.io</id>
 
+    <entry>
+        <title>Test markdown article</title>
+        <author>
+            <name>Alberto Peripolli</name>
+        </author>
+        <link href="https://blog.datomatic.io/test-markdown-article.html"/>
+        <id>https://blog.datomatic.io/test-markdown-article.html</id>
+
+        <updated>2022-06-27T16:26:29+02:00</updated>
+            <summary>
+                <![CDATA[
+                    sadklasd lksad kasasdsd klasaskasdk kadsklasd klsd kkl asl kaslasd sd klsd klasd ksda\sadk sd kalasdkasdlasksdklaasd ksd kl klasasd k klasldkaskads asdklasd lkask as kas klasdklasd asd kdas kdklassdkl asdkldas ksda
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>sadklasd lksad kasasdsd klasaskasdk kadsklasd klsd kkl asl kaslasd sd klsd klasd ksda\sadk</p>
+<p>sd kalasdkasdlasksdklaasd ksd kl klasasd k klasldkaskads asdklasd lkask as kas klasdklasd</p>
+<p>asd kdas kdklassdkl asdkldas ksda</p>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Test 3 blog post sqlite</title>
+        <author>
+            <name>Alberto Peripolli</name>
+        </author>
+        <link href="https://blog.datomatic.io/test-3-blog-post-sqlite.html"/>
+        <id>https://blog.datomatic.io/test-3-blog-post-sqlite.html</id>
+
+        <updated>2022-06-27T15:49:33+02:00</updated>
+            <summary>
+                <![CDATA[
+                    klasdklad kl klasklasdd klalasd adskadsladksk'ask'askaskasdkasdlasdkasdkl as klasdkl ads k klasl kasd klads kasd k klas klasl ksdk aaksdadklslasd kasdkasd ksdl kdalkasklasdklasd klas klasd kasd k klasklas asdsdajasd kasd kasd kdas kd kladsklkasd klasasd ksdkl d kladklaslasd. kl;aklasd adsl kasd kadsklasd kasd kasd kasd kdas kkl&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+  <p class="abstract-show">
+    klasdklad kl klasklasdd klalasd adskadsladksk'ask'askaskasdkasdlasdkasdkl as klasdkl ads k klasl kasd klads kasd k klas klasl ksdk aaksdadklslasd kasdkasd ksdl kdalkasklasdklasd klas klasd kasd k klasklas
+  </p>
+
+  <p>
+    asdsdajasd kasd kasd kdas kd kladsklkasd klasasd ksdkl d kladklaslasd. kl;aklasd
+  </p>
+
+  <p>
+    adsl kasd kadsklasd kasd kasd kasd kdas kkl asdkl asd
+  </p>
+<pre class="line-numbers  language-typescript"><code>&lt;a class="logo" href="{{@website.url}}"&gt;
+         {{#if @website.logo}}
+            &lt;img src="{{@website.logo}}" alt="{{@website.name}}" width="{{@website.logoSize.width}}" height="{{@website.logoSize.height}}"&gt;
+         {{else}}
+            {{@website.name}}
+         {{/if}}
+      &lt;/a&gt;</code></pre>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Test blog post 2</title>
         <author>
