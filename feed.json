@@ -21,16 +21,18 @@
                 "name": "Alberto Peripolli"
             },
             "tags": [
+                   "Tips",
+                   "Packages"
             ],
             "date_published": "2022-06-27T11:49:12+02:00",
-            "date_modified": "2022-06-27T12:21:51+02:00"
+            "date_modified": "2022-06-27T12:39:50+02:00"
         },
         {
             "id": "https://blog.datomatic.io/test-post.html",
             "url": "https://blog.datomatic.io/test-post.html",
             "title": "Test post",
-            "summary": "grusp \\Test page aksjd ksjkdas asdjasd jasdjk asd jad jkdjs;aadassd jsdja asddasasdasd asdsadsdsdasdsdsdaasdas asddasjoiasdn asdjasd jasdjkasd kasdjasd. jkasjasd; jas j;as j;as; jka kas jkaj; asd jk;as jkasd; jkasd jasdj; asd jads; jas j;ads; ja; jasd jasd; asd jasd jasds j Str::of($translation)-&gt;startsWith(self::translateUniquePath($method)); public function __call(string $method,&hellip;",
-            "content_html": "\n    <figure class=\"post__image post__image--center\">\n      <img decoding=\"async\" loading=\"lazy\" src=\"\" data-is-external-image=\"true\"  height=\"640\" width=\"640\" alt=\"grusp\" />\n      <figcaption>grusp</figcaption>\n    </figure>\n\n  <p>\n    \\Test page aksjd ksjkdas asdjasd jasdjk asd jad jkdjs;aadassd jsdja\n  </p>\n\n  <p>\n    asddasasdasd<br>asdsadsdsdasdsdsdaasdas<br>asddasjoiasdn asdjasd jasdjkasd kasdjasd. jkasjasd; jas j;as j;as; jka kas jkaj; asd jk;as jkasd; jkasd jasdj; asd jads; jas j;ads; ja; jasd jasd; asd jasd jasds j\n  </p>\n<pre class=\"line-numbers  language-php\"><code>Str::of($translation)-&gt;startsWith(self::translateUniquePath($method));\n\npublic function __call(string $method, array $parameters): string\n    {\n        $translation = __(self::translateUniquePath($method, $this-&gt;name) , [], $parameters[0] ?? null);\n\n        if (Str::of($translation)-&gt;startsWith(self::translateUniquePath($method, $this-&gt;name))) {\n            $translation = __(self::translateUniqueFallbackPath($this-&gt;name), [], $parameters[0] ?? null);\n\n            if (Str::of($translation)-&gt;startsWith(self::translateUniqueFallbackPath($this-&gt;name))) {\n                throw new TranslationMissing(self::class, $method);\n            }\n        }\n\n        return $translation;\n    }\n</code></pre>\n<pre class=\"line-numbers  language-typescript\"><code>const test = ({ name }: {name: string}) =&gt; {\n  console.log(`this is typescript, ${name}.`);\n}</code></pre>\n<hr class=\"separator separator--dots\" />\n\n  <p>\n    Bob ciao\n  </p>\n\n  <p class=\"abstract\">\n    Questo è un abstract customizzato. Ciao Alberto\n  </p>\n\n  <p class=\"abstract-show\">\n    Questo è un secondo abstract ma visualizzato nel post\n  </p>",
+            "summary": "\\Test page aksjd ksjkdas asdjasd jasdjk asd jad jkdjs;aadassd jsdja asddasasdasd asdsadsdsdasdsdsdaasdas asddasjoiasdn asdjasd jasdjkasd kasdjasd. jkasjasd; jas j;as j;as; jka kas jkaj; asd jk;as jkasd; jkasd jasdj; asd jads; jas j;ads; ja; jasd jasd; asd jasd jasds j Str::of($translation)-&gt;startsWith(self::translateUniquePath($method)); public function __call(string $method, array&hellip;",
+            "content_html": "\n  <p>\n    \\Test page aksjd ksjkdas asdjasd jasdjk asd jad jkdjs;aadassd jsdja\n  </p>\n\n  <p>\n    asddasasdasd<br>asdsadsdsdasdsdsdaasdas<br>asddasjoiasdn asdjasd jasdjkasd kasdjasd. jkasjasd; jas j;as j;as; jka kas jkaj; asd jk;as jkasd; jkasd jasdj; asd jads; jas j;ads; ja; jasd jasd; asd jasd jasds j\n  </p>\n<pre class=\"line-numbers  language-php\"><code>Str::of($translation)-&gt;startsWith(self::translateUniquePath($method));\n\npublic function __call(string $method, array $parameters): string\n    {\n        $translation = __(self::translateUniquePath($method, $this-&gt;name) , [], $parameters[0] ?? null);\n\n        if (Str::of($translation)-&gt;startsWith(self::translateUniquePath($method, $this-&gt;name))) {\n            $translation = __(self::translateUniqueFallbackPath($this-&gt;name), [], $parameters[0] ?? null);\n\n            if (Str::of($translation)-&gt;startsWith(self::translateUniqueFallbackPath($this-&gt;name))) {\n                throw new TranslationMissing(self::class, $method);\n            }\n        }\n\n        return $translation;\n    }\n</code></pre>\n<pre class=\"line-numbers  language-typescript\"><code>const test = ({ name }: {name: string}) =&gt; {\n  console.log(`this is typescript, ${name}.`);\n}</code></pre>\n<hr class=\"separator separator--dots\" />\n\n  <p>\n    Bob ciao\n  </p>\n\n  <p class=\"abstract\">\n    Questo è un abstract customizzato. Ciao Alberto\n  </p>\n\n  <p class=\"abstract-show\">\n    Questo è un secondo abstract ma visualizzato nel post\n  </p>",
             "image": "https://blog.datomatic.io/media/posts/1/laravel9-1646792144.jpeg",
             "author": {
                 "name": "Alberto Peripolli"
@@ -40,7 +42,7 @@
                    "Laravel"
             ],
             "date_published": "2022-06-25T10:40:31+02:00",
-            "date_modified": "2022-06-27T12:21:37+02:00"
+            "date_modified": "2022-06-27T12:40:00+02:00"
         }
     ]
 }

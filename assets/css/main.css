@@ -2505,6 +2505,24 @@ pre code.hljs {
   font-size: 0.9rem;
 }
 
+@media (min-width: 1024px){
+  .feed {
+    gap: 2rem;
+  }
+  .feed__item{
+    grid-column: span 6/span 6;
+  }
+}
+
+@media (min-width: 1400px){
+  .feed {
+    gap: 3rem;
+  }
+  .feed__item{
+    grid-column: span 4/span 4;
+  }
+}
+
 .feed__readmore {
   margin-top: 1rem;
 }
@@ -2525,20 +2543,25 @@ pre code.hljs {
   border-radius: 9999px;
 }
 
-@media (min-width: 1024px){
-  .feed {
-    gap: 2rem;
-  }
-  .feed__item{
-    grid-column: span 6/span 6;
-  }
+.news{
+  background-color: #005F9F;
 }
 
-@media (min-width: 1400px){
-  .feed {
-    gap: 3rem;
-  }
-  .feed__item{
-    grid-column: span 4/span 4;
-  }
+.tutorials{
+  background-color: #81B29A;
+}
+
+.packages{
+  background-color: #BB86FC;
+}
+
+.tips{
+  background-color: #555555;
+}
+
+.laravel{
+  background-color: #FF2238;
+}
+.tag__item:hover {
+  color: #111111;
 }
