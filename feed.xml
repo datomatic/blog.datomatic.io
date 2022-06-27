@@ -3,28 +3,31 @@
     <title>Datomatic Blog</title>
     <link href="https://blog.datomatic.io/feed.xml" rel="self" />
     <link href="https://blog.datomatic.io" />
-    <updated>2022-06-27T16:26:29+02:00</updated>
+    <updated>2022-06-27T17:29:52+02:00</updated>
     <author>
         <name>Alberto Peripolli</name>
     </author>
     <id>https://blog.datomatic.io</id>
 
     <entry>
-        <title>Test markdown article</title>
+        <title>Test markdown article with a long title cool</title>
         <author>
             <name>Alberto Peripolli</name>
         </author>
         <link href="https://blog.datomatic.io/test-markdown-article.html"/>
         <id>https://blog.datomatic.io/test-markdown-article.html</id>
+            <category term="Tutorials"/>
 
-        <updated>2022-06-27T16:26:29+02:00</updated>
+        <updated>2022-06-27T17:26:05+02:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://blog.datomatic.io/media/posts/4/laravel-dark-6.png" alt="" />
                     sadklasd lksad kasasdsd klasaskasdk kadsklasd klsd kkl asl kaslasd sd klsd klasd ksda\sadk sd kalasdkasdlasksdklaasd ksd kl klasasd k klasldkaskads asdklasd lkask as kas klasdklasd asd kdas kdklassdkl asdkldas ksda
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <img src="https://blog.datomatic.io/media/posts/4/laravel-dark-6.png" alt="" />
                 <p>sadklasd lksad kasasdsd klasaskasdk kadsklasd klsd kkl asl kaslasd sd klsd klasd ksda\sadk</p>
 <p>sd kalasdkasdlasksdklaasd ksd kl klasasd k klasldkaskads asdklasd lkask as kas klasdklasd</p>
 <p>asd kdas kdklassdkl asdkldas ksda</p>
@@ -39,15 +42,18 @@
         </author>
         <link href="https://blog.datomatic.io/test-3-blog-post-sqlite.html"/>
         <id>https://blog.datomatic.io/test-3-blog-post-sqlite.html</id>
+            <category term="Tips"/>
 
-        <updated>2022-06-27T15:49:33+02:00</updated>
+        <updated>2022-06-27T17:29:52+02:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://blog.datomatic.io/media/posts/3/laravel9-1646792144-copia-2.jpeg" alt="" />
                     klasdklad kl klasklasdd klalasd adskadsladksk'ask'askaskasdkasdlasdkasdkl as klasdkl ads k klasl kasd klads kasd k klas klasl ksdk aaksdadklslasd kasdkasd ksdl kdalkasklasdklasd klas klasd kasd k klasklas asdsdajasd kasd kasd kdas kd kladsklkasd klasasd ksdkl d kladklaslasd. kl;aklasd adsl kasd kadsklasd kasd kasd kasd kdas kkl&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <img src="https://blog.datomatic.io/media/posts/3/laravel9-1646792144-copia-2.jpeg" alt="" />
                 
   <p class="abstract-show">
     klasdklad kl klasklasdd klalasd adskadsladksk'ask'askaskasdkasdlasdkasdkl as klasdkl ads k klasl kasd klads kasd k klas klasl ksdk aaksdadklslasd kasdkasd ksdl kdalkasklasdklasd klas klasd kasd k klasklas
@@ -80,16 +86,16 @@
             <category term="Tips"/>
             <category term="Packages"/>
 
-        <updated>2022-06-27T12:39:50+02:00</updated>
+        <updated>2022-06-27T17:27:36+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://blog.datomatic.io/media/posts/2/laravel9-1646792144.jpeg" alt="" />
+                        <img src="https://blog.datomatic.io/media/posts/2/laravel9-1646792144-2.jpeg" alt="" />
                     asdasddassadasdasdsdaasdasdasd asdassdadasdasdasasdasdsdaklasdsda nladsjkd kls klasklsd asd kkl askl asd k klasklasdjkasd jkasdjkasdjk jkas jkas jkasd jkasdjk asdk jasd djas adsk asd jkasd. jkaka jsdjkasasd jjj jkas jksdjkskasd asd jsdjkads;sdadk;aasd;asd ;jasd;asd j;asd;jasdj;dasjasd;asd asdj;;asdjdj;asjasdjkasasd kdas jka jad;jasdjasdjasdasd asd&nbsp;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://blog.datomatic.io/media/posts/2/laravel9-1646792144.jpeg" alt="" />
+                    <img src="https://blog.datomatic.io/media/posts/2/laravel9-1646792144-2.jpeg" alt="" />
                 
   <p>
     asdasddassadasdasdsdaasdasdasd
@@ -111,16 +117,16 @@
             <category term="News"/>
             <category term="Laravel"/>
 
-        <updated>2022-06-27T12:40:00+02:00</updated>
+        <updated>2022-06-27T17:28:37+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://blog.datomatic.io/media/posts/1/laravel9-1646792144.jpeg" alt="" />
+                        <img src="https://blog.datomatic.io/media/posts/1/eloquent-attribute-casting.jpeg" alt="" />
                     \Test page aksjd ksjkdas asdjasd jasdjk asd jad jkdjs;aadassd jsdja asddasasdasd asdsadsdsdasdsdsdaasdas asddasjoiasdn asdjasd jasdjkasd kasdjasd. jkasjasd; jas j;as j;as; jka kas jkaj; asd jk;as jkasd; jkasd jasdj; asd jads; jas j;ads; ja; jasd jasd; asd jasd jasds j Str::of($translation)-&gt;startsWith(self::translateUniquePath($method)); public function __call(string $method, array&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://blog.datomatic.io/media/posts/1/laravel9-1646792144.jpeg" alt="" />
+                    <img src="https://blog.datomatic.io/media/posts/1/eloquent-attribute-casting.jpeg" alt="" />
                 
   <p>
     \Test page aksjd ksjkdas asdjasd jasdjk asd jad jkdjs;aadassd jsdja
